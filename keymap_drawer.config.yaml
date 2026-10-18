@@ -1,0 +1,256 @@
+# Стиль схемы для keymap-drawer.
+# Справка по полям: github.com/caksoylar/keymap-drawer/blob/main/CONFIGURATION.md
+draw_config:
+  dark_mode: auto
+  key_w: 64
+  key_h: 60
+  split_gap: 40
+  combo_w: 26
+  combo_h: 24
+  footer_text: ''
+  svg_extra_style: '/* русская буква в правом верхнем углу */
+
+    text.tr { fill: #4a8ff0; font-size: 13px; font-weight: 600; }
+
+    /* подписи модификаторов при удержании */
+
+    text.hold { font-size: 13px; }
+
+    /* буквы комбо крупнее */
+
+    text.combo { font-size: 13px; font-weight: 600; }
+
+    '
+  n_columns: 2
+parse_config:
+  raw_binding_map:
+    '&hml LSHFT A':
+      t: A
+      tr: ф
+      h: ⇧
+    '&hml LCTRL S':
+      t: S
+      tr: ы
+      h: ⌃
+    '&hml LALT D':
+      t: D
+      tr: в
+      h: ⌥
+    '&hml LGUI F':
+      t: F
+      tr: а
+      h: ⌘
+    '&hmr RGUI J':
+      t: J
+      tr: о
+      h: ⌘
+    '&hmr RALT K':
+      t: K
+      tr: л
+      h: ⌥
+    '&hmr RCTRL L':
+      t: L
+      tr: д
+      h: ⌃
+    '&hmr RSHFT SQT':
+      t: ''''
+      tr: э
+      h: ⇧
+    '&bootloader': Boot
+    '&sys_reset': Reset
+    '&studio_unlock': Studio
+    '&caps_word': Caps
+  trans_legend: ''
+  zmk_combos:
+    combo_yo:
+      k: ё
+      l:
+      - Base
+    combo_hard:
+      k: ъ
+      l:
+      - Base
+    combo_kha:
+      k: х
+      l:
+      - Base
+    combo_comma:
+      k: ','
+      l:
+      - Base
+  zmk_keycode_map:
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH:
+      t: /
+      tr: .
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE:
+      t: ''''
+      tr: э
+    SQT:
+      t: ''''
+      tr: э
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA:
+      t: ','
+      tr: б
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT:
+      t: .
+      tr: ю
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+    LSHFT: ⇧
+    RSHFT: ⇧
+    LCTRL: ⌃
+    RCTRL: ⌃
+    LALT: ⌥
+    RALT: ⌥
+    LGUI: ⌘
+    RGUI: ⌘
+    BSPC: ⌫
+    ENTER: ⏎
+    SPACE: ␣
+    TAB: ⇥
+    ESC: Esc
+    Q:
+      t: Q
+      tr: й
+    W:
+      t: W
+      tr: ц
+    E:
+      t: E
+      tr: у
+    R:
+      t: R
+      tr: к
+    T:
+      t: T
+      tr: е
+    Y:
+      t: Y
+      tr: н
+    U:
+      t: U
+      tr: г
+    I:
+      t: I
+      tr: ш
+    O:
+      t: O
+      tr: щ
+    P:
+      t: P
+      tr: з
+    A:
+      t: A
+      tr: ф
+    S:
+      t: S
+      tr: ы
+    D:
+      t: D
+      tr: в
+    F:
+      t: F
+      tr: а
+    G:
+      t: G
+      tr: п
+    H:
+      t: H
+      tr: р
+    J:
+      t: J
+      tr: о
+    K:
+      t: K
+      tr: л
+    L:
+      t: L
+      tr: д
+    Z:
+      t: Z
+      tr: я
+    X:
+      t: X
+      tr: ч
+    C:
+      t: C
+      tr: с
+    V:
+      t: V
+      tr: м
+    B:
+      t: B
+      tr: и
+    N:
+      t: N
+      tr: т
+    M:
+      t: M
+      tr: ь
+    PG_UP: PgUp
+    PG_DN: PgDn
+    HOME: Home
+    END: End
+    INS: Ins
+    DEL: Del
+    LEFT: ←
+    RIGHT: →
+    UP: ↑
+    DOWN: ↓

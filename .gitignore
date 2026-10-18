@@ -1,2 +1,5 @@
 .DS_Store
 
+keymap-drawer/.*
+keymap-drawer/wallpaper-*.png
+keymap-drawer/cradio-dark.svg
