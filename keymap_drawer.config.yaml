@@ -24,6 +24,8 @@ draw_config:
   n_columns: 2
 parse_config:
   raw_binding_map:
+    '&kp LANG2': {t: 英数, h: тест}
+    '&kp GLOBE': {t: 🌐, h: тест}
     '&hml LSHFT A':
       t: A
       tr: ф
@@ -60,8 +62,72 @@ parse_config:
     '&sys_reset': Reset
     '&studio_unlock': Studio
     '&caps_word': Caps
+    '&kp LS(N1)': '!'
+    '&kp LS(N2)': '"'
+    '&kp LS(N4)': ;
+    '&kp LS(N5)': '%'
+    '&kp LS(N6)': ':'
+    '&kp LS(N7)': '?'
+    '&kp LS(N8)': '*'
+    '&kp LS(N9)': (
+    '&kp LS(N0)': )
+    '&kp LS(MINUS)': _
+    '&kp LS(EQUAL)': +
+    '&kp LS(BSLH)': /
+    '&kp LS(FSLH)': ','
+    '&en AMPS':
+      t: '&'
+      h: →EN
+    '&en HASH':
+      t: '#'
+      h: →EN
+    '&en CARET':
+      t: ^
+      h: →EN
+    '&en AT':
+      t: '@'
+      h: →EN
+    '&en LBKT':
+      t: '['
+      h: →EN
+    '&en RBKT':
+      t: ']'
+      h: →EN
+    '&en LT':
+      t: <
+      h: →EN
+    '&en GT':
+      t: '>'
+      h: →EN
+    '&en DLLR':
+      t: $
+      h: →EN
+    '&en TILDE':
+      t: '~'
+      h: →EN
+    '&en GRAVE':
+      t: '`'
+      h: →EN
+    '&en PIPE':
+      t: '|'
+      h: →EN
+    '&en LBRC':
+      t: '{'
+      h: →EN
+    '&en RBRC':
+      t: '}'
+      h: →EN
+    '&kp LA(LS(MINUS))': —
+    '&lang': язык
+    '&tog 1':
+      t: Ru
+      h: флаг
   trans_legend: ''
   zmk_combos:
+    combo_lang:
+      k: язык
+      l:
+      - Base
     combo_yo:
       k: ё
       l:
@@ -74,10 +140,12 @@ parse_config:
       k: х
       l:
       - Base
-    combo_comma:
+    combo_comma_en:
       k: ','
       l:
       - Base
+    combo_comma_ru:
+      hidden: true
   zmk_keycode_map:
     EXCLAMATION: '!'
     EXCL: '!'

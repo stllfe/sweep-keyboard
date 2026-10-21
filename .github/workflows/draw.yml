@@ -12,4 +12,5 @@ jobs:
     with:
       keymap_patterns: "config/*.keymap"
       output_folder: "keymap-drawer"
-      parse_args: "cradio:'-l Base Nav Sym Sys'"
+      parse_args: "cradio:'-l Base Ru Nav Sym SymRu Sys'"
+      draw_args: "cradio:'-s Base Nav Sym SymRu Sys'"
