@@ -3,7 +3,7 @@
 KEYMAP := config/cradio.keymap
 CONFIG := keymap_drawer.config.yaml
 OUT    := keymap-drawer
-LAYERS := Base Ru Nav Sym SymRu Sys
+LAYERS := Base Ru Zh Nav Sym SymRu Sys
 DRAWN  := Base Nav Sym SymRu Sys
 KD     ?= uvx --from keymap-drawer keymap
 BG     ?= \#1f2023

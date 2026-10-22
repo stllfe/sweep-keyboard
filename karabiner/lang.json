@@ -1,0 +1,13 @@
+{
+  "title": "Ferris Sweep: выбор языка",
+  "rules": [
+    {
+      "description": "F18 → ABC, F19 → Russian – PC, F20 → Пиньинь (клавиши шлёт прошивка zmk-config)",
+      "manipulators": [
+        { "type": "basic", "from": { "key_code": "f18" }, "to": [ { "select_input_source": { "language": "^en$" } } ] },
+        { "type": "basic", "from": { "key_code": "f19" }, "to": [ { "select_input_source": { "language": "^ru$" } } ] },
+        { "type": "basic", "from": { "key_code": "f20" }, "to": [ { "select_input_source": { "language": "^zh-Hans$" } } ] }
+      ]
+    }
+  ]
+}

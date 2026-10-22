@@ -24,8 +24,6 @@ draw_config:
   n_columns: 2
 parse_config:
   raw_binding_map:
-    '&kp LANG2': {t: 英数, h: тест}
-    '&kp GLOBE': {t: 🌐, h: тест}
     '&hml LSHFT A':
       t: A
       tr: ф
@@ -118,14 +116,19 @@ parse_config:
       t: '}'
       h: →EN
     '&kp LA(LS(MINUS))': —
-    '&lang': язык
-    '&tog 1':
-      t: Ru
-      h: флаг
+    '&lang_ru': RU
+    '&lang_en': EN
+    '&lang_zh': 中
   trans_legend: ''
   zmk_combos:
-    combo_lang:
-      k: язык
+    combo_lang_ru:
+      k: EN/RU
+      l:
+      - Base
+    combo_lang_en:
+      hidden: true
+    combo_lang_zh:
+      k: 中
       l:
       - Base
     combo_yo:
