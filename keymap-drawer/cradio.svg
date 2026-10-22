@@ -311,11 +311,11 @@ text.combo { font-size: 13px; font-weight: 600; }
 </a></g>
 <g transform="translate(299, 262) rotate(30.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">⏎</text>
+<text x="0" y="0" class="key tap">␣</text>
 </g>
 <g transform="translate(421, 262) rotate(-30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">␣</text>
+<text x="0" y="0" class="key tap">⏎</text>
 </g>
 <g transform="translate(483, 236) rotate(-15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -327,21 +327,25 @@ text.combo { font-size: 13px; font-weight: 600; }
 <path d="M360,262 l-41,0" class="combo"/>
 <path d="M360,262 l41,0" class="combo"/>
 <rect rx="6" ry="6" x="347" y="250" width="26" height="24" class="combo"/>
-<text x="360" y="262" class="combo tap">язык</text>
+<text x="360" y="262" class="combo tap">EN/RU</text>
 </g>
 <g class="combo combopos-1">
+<rect rx="6" ry="6" x="255" y="237" width="26" height="24" class="combo"/>
+<text x="268" y="249" class="combo tap">中</text>
+</g>
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="257" y="73" width="26" height="24" class="combo"/>
 <text x="270" y="85" class="combo tap">ё</text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-3">
 <rect rx="6" ry="6" x="497" y="125" width="26" height="24" class="combo"/>
 <text x="510" y="137" class="combo tap">ъ</text>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-4">
 <rect rx="6" ry="6" x="677" y="105" width="26" height="24" class="combo"/>
 <text x="690" y="117" class="combo tap">х</text>
 </g>
-<g class="combo combopos-4">
+<g class="combo combopos-5">
 <rect rx="6" ry="6" x="617" y="127" width="26" height="24" class="combo"/>
 <text x="630" y="139" class="combo tap">,</text>
 </g>
@@ -778,13 +782,9 @@ text.combo { font-size: 13px; font-weight: 600; }
 </g>
 <g transform="translate(150, 30)" class="key keypos-2">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">英数</text>
-<text x="0" y="26" class="key hold">тест</text>
 </g>
 <g transform="translate(210, 47)" class="key keypos-3">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">🌐</text>
-<text x="0" y="26" class="key hold">тест</text>
 </g>
 <g transform="translate(270, 55)" class="key keypos-4">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -816,8 +816,6 @@ text.combo { font-size: 13px; font-weight: 600; }
 </g>
 <g transform="translate(150, 90)" class="key keypos-12">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Ru</text>
-<text x="0" y="26" class="key hold">флаг</text>
 </g>
 <g transform="translate(210, 107)" class="key keypos-13">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
